@@ -1,5 +1,5 @@
 set scriptdir [pwd]
-
+vlib work
 vmap uvvm_util            ${scriptdir}/../UVVM/uvvm_util/sim/uvvm_util
 
 vcom -work work -2008 ${scriptdir}/../src/dec_8b10b.vhd
